@@ -17,10 +17,10 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 react.includes("miss you") ||
 react.includes("MISS YOU")) {
     var msg = {
-        body: `‌𝐈 𝐌𝐈𝐒𝐒 𝐘𝐎𝐔 𝐓𝐎 𝐌𝐀𝐑𝐈 𝐉𝐀𝐀𝐍 😇`,attachment: fs.createReadStream(__dirname + `/ARIF-BABU/MISS-YOU.gif`)
+        body: `‌𝐈 𝐌𝐈𝐒𝐒 𝐘𝐎𝐔 𝐓𝐎 𝐌𝐀𝐑𝐈 𝐉𝐀𝐀𝐍 🫣😇`,attachment: fs.createReadStream(__dirname + `/Ali-Brand /MISS-YOU.gif`)
       }
       api.sendMessage(msg, threadID, messageID);
-    api.setMessageReaction("😻", event.messageID, (err) => {}, true)
+    api.setMessageReaction("🫦", event.messageID, (err) => {}, true)
     }
   }
   module.exports.run = function({ api, event, client, __GLOBAL }) {
